@@ -177,7 +177,7 @@ public class LSPClient {
         if (isResponse(message)) {
             System.out.println("<< Response");
         } else {
-            System.out.println("<< Notify");
+            System.out.println("<< Notification");
         }
         System.out.println(message);
         System.out.println("----");
@@ -235,7 +235,7 @@ public class LSPClient {
         if (isRequest(message)) {
             System.out.println(">> Request");
         } else {
-            System.out.println(">> Notify");
+            System.out.println(">> Notification");
         }
         System.out.println(message);
         System.out.println("----");
